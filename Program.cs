@@ -14,6 +14,10 @@ namespace StackLinkedList
             list.Push(56);
             //calling display method
             list.Display();
+            //calling IsEmpty method
+            list.IsEmpty();
+            list.Display();
+            
             Console.ReadLine();
 
         }
