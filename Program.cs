@@ -14,6 +14,9 @@ namespace QueueLinkedList
             queue.Enqueve(70);
             //calling display method
             queue.Display();
+            //calling Dequeue method
+            queue.Dequeue();
+            queue.Display();
              Console.ReadLine();
 
         }
